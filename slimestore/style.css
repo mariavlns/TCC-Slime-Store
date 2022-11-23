@@ -1,0 +1,292 @@
+body{
+	background-color: #212121;
+	margin: 0px;
+	color: #fafafa;
+	display:flex;
+	flex-direction:column;
+}
+
+.nav{
+	background-color: #757575;
+	font-size: 20px;
+	display: flex;
+	position:relative;
+	top:0%;
+	width:100%;
+	height:8rem;
+	align-items:center;
+}
+
+.nav h1{
+	align-self:center;
+	margin-left:1.5rem;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.nav-logo{
+	height: 120px;
+}
+
+.nav-items{
+	margin-left: auto;
+	margin-right: 5px;
+	display: flex;
+}
+
+.nav-button{
+	padding: 10px;
+	background-color: #212121;
+	color: #fafafa;
+	margin-right: 5px;
+	border: none;
+	margin-top: 25%;
+	margin-bottom:auto;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+.comprar {
+	font-family: 'Roboto', sans-serif;
+}
+.menu{
+	display: none;
+	padding: 10px;
+	background-color: #212121;
+	border: none;
+	margin-top: 25%;
+	text-decoration: none;
+}
+.at a {
+	text-decoration: none;
+}
+
+.menu img{
+	height: 20px;
+}
+
+@media(max-width: 700px){
+	.nav-button{
+		font-size: 13px;
+	}
+	
+	.nav-logo{
+		height: 80px;
+	}
+	
+	.nav h1{
+		font-size: 24px;
+	}
+}
+
+@media(max-width: 550px){
+	.nav{
+		margin-top: 0px;
+		max-height: 50px;
+	}
+	
+	.nav-logo{
+		height: 50px;
+	}
+	
+	.nav h1{
+		font-size: 16px;
+	}
+	
+	.menu{
+		margin-top: 0px;
+		display: block;
+	}
+	.nav-button{
+		display: none;
+		width: 100px;
+		margin: 0px;
+		border: 0px;
+		font-size: 12px;
+		text-align: end;
+	} 
+	.nav-items{
+		position: relative;
+		display: inline-block;
+		padding: 0px;
+	}
+	
+	.nav-items:hover .nav-button{
+		display: block;
+	}
+	
+	.nav-items:hover .menu{
+		margin-left: 80px;
+	}
+}
+.nav-button:hover, .menu:hover{
+	background-color: #37474F;
+}
+.banner{
+	width: 100%;
+}
+.main{
+	width: 100%;
+}
+.text{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+.atractions{
+	margin: auto;
+	width: 90%;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+}
+.atr{
+	margin: auto;
+	width: 50%;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+}
+.atr1{
+	margin: auto;
+
+	width: 35%;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+}
+.at{
+	width: 40%;
+	margin-top: 20px;
+}
+.at-img{
+	width: 100%;
+}
+.carrinho img {
+  height: 35px;
+ position: relative;
+ top: 30px;
+	left: -10px;
+}
+.fig{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.button{
+	background-color: #212121;
+	color: #fafafa;
+	padding: 10px;
+	border: none;
+	margin-top: 75px;
+	margin-left: 540px;
+}
+.article{
+	width: 50%;
+	margin-left: 25%;
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+}
+.link{
+	color: #fafafa;
+}
+.banner{
+	width: 100%;
+}
+
+.section{
+	width: 90%;
+	margin-left: 10%;
+	
+}
+.picture{
+	width: 350px;
+	height: 400px;
+	margin: 10px;
+	float: left;
+	padding:10px;
+	font-family: 'Roboto', sans-serif;
+	align-items:center;
+	display:flex;
+	flex-direction:column;
+	background:green;
+	border-radius:10%;
+}
+.picture img{
+	width: 300px;
+	height: 300px;
+	margin-top:15px;
+	border-radius:10%;
+}
+.picture span{
+	margin-top:10px;
+}
+.picture .descricao{
+	display:flex;
+	flex-direction:row;
+	margin-right:5px;
+}
+.picture span:hover{
+cursor:pointer;	
+transition: all 0.3s;
+	transform:scale(1.1);
+}
+.cima{
+	transition: all 0.3s;
+}
+.at-img:hover{ 
+transition: all 0.3s;
+	transform:scale(1.1);
+}
+.contato{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.iframe{
+	width: 400px;
+	height: 410px;
+	margin: auto;
+	border: none;
+} 
+.iframe2{
+	width: 165px;
+	height: 50px;
+	margin: auto;
+	border: none;
+}
+.footer{
+	background-color: #757575;
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	align-items: center;
+	justify-content:center;
+	margin-top:30px;
+	height:5.4rem;
+}
+.instagram img {
+  height: 30px;
+ position: relative;
+ top: 2px;
+	left:30rem;
+}
+.instagram1 img {
+  height: 30px;
+ position: relative;
+ top: 2px;
+	left:30rem;
+}
+.whatsapp img {
+ height: 30px;
+ position: relative;
+ top: 2px;
+	left:26rem;
+}
+.whatsapp1 img {
+   height: 30px;
+ position: relative;
+ top: 2px;
+	left:26rem;
+}
